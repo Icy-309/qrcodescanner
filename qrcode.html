@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Code scanner</title>
+    <style>
+           @font-face {
+            font-family:'Outfit' sans-serif;
+            src: url(https://fonts.google.com/specimen/Outfit);
+        }
+      /* @import url("https://fonts.googleapis.com//css2?family=Outfit:wght@400"); */
+        body{
+            background-color:  hsl(212, 45%, 89%);
+            align-content: center;
+            display: flex;
+            justify-content: center;
+            font-family:'Outfit' sans-serif;
+        }
+    div{
+           height: 32rem;
+           width: 18rem;
+           text-align: center;
+           border-radius: 20px;
+           align-items: center;
+           background-color: white;
+         
+    }
+    h2{
+        font-family: Outfit;
+        font-weight: 700;
+     
+    }
+    p{
+        font-size: 15px;
+        font-family: Outfit;
+    }
+    img{
+        width: 16rem;
+        border-radius: 40px;
+        align-items: center;
+        padding: 18px;
+    }
+    @media screen and (max-width:375px) {
+        img{
+        width: 11rem;
+        border-radius: 40px;
+        align-items: center;
+        padding: 18px;
+    }
+    div{
+           height: 30rem;
+           width: 13rem;
+           text-align: center;
+           border-radius: 20px;
+           align-items: center;
+           background-color: white;
+         
+    }
+    h2{
+      font-size: 1.35rem;
+     
+    }
+    p{
+        font-size: 14px;
+        font-family: Outfit;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    }
+    </style>
+</head>
+<body>
+    <div>
+       <img src="image-qr-code.png" alt="qr scanner image">
+       <br>
+       <h2>Improve your front-end skills by building projects</h2>
+       <p>Scan the Qr code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+</body>
+</html>
